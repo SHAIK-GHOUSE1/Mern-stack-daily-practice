@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="images.html">
+        <h2>Student Details :</h2>
+        <label for="fname">First Name :</label>
+        <input id="fname" type="text" minlength="5" maxlength="15" required placeholder="Enter you first name"  />
+        <br><br>
+        <label for="">Middle Name :</label>
+        <input type="text" minlength="5" maxlength="30" required value="Mohammed">
+        <br><br>
+        <label for="lname">Last Name :</label>
+        <input id="lname" type="text" >
+        <br><br>
+        <label for="age">Age :</label>
+        <input id="age" type="number">
+        <br><br>
+        <label for="">Email :</label>
+        <input type="email">
+        <br><br>
+        <label for="">Phone No :</label>
+        <input type="number">
+        <br><br>
+        <label for="">password :</label>
+        <input type="password">
+        <br><br>
+        <label for="joining">Date of joining :</label>
+        <input  id="joining" type="datetime">
+        <p>Select shirt size :</p>
+        <input id="small" type="radio" name="shirt size"><label for="small">Small</label>
+        <input id="medium" type="radio" name="shirt size" checked><label for="medium">Medium</label>
+        <input id="large" type="radio" name="shirt size"><label for="large">Large</label>
+        <br><br>
+        <p>Select the known languages :</p>
+        <input id="English" type="checkbox" name="lang"><label for="English">English</label>
+        <input id="Telugu" type="checkbox" name="lang" ><label for="Telugu">Telugu</label>
+        <input id="Hindi" type="checkbox" name="lang"><label for="Hindi">Hindi</label>
+        <input id="kanada" type="checkbox" name="lang"><label for="kanada">kanada</label>
+    
+        <br><br>
+        <label for="paymentoptions">please select a payment method :</label>
+        <select name="payment" id="paymentoptions">
+         <option value=""></option>   
+        <option value="Gpay">Gpay</option>
+        <option value="Phonepay">Phonepay</option>
+        <option value="Upi">Upi</option>
+        <option value="COD">COD</option>
+        </select>
+        <br><br>
+        <label for="feedback">Enter your Feedback : </label>
+        <textarea name="Feedback" id="feedback" rows="10" cols="50" placeholder="comments"></textarea>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+</body>
+</html>
