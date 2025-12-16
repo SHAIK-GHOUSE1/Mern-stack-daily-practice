@@ -1,0 +1,47 @@
+/*
+selector syntax
+selectortype{
+    propertype:propertvalue;
+}
+ /* */
+
+ /* 
+    1.Element selector
+  */
+/* p{
+    color: red;
+}
+
+h2{
+    color: white;
+    background-color: black;
+} */
+
+/* id selector */
+
+/* #pid1{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#pid2{
+    color: brown;
+    font-family:cursive;
+} */
+
+
+
+/* class Selectors */
+
+/* .highlighter{
+    color: aqua;
+    background: red;
+}
+
+.paragraph{
+    font-family: cursive;
+} */
+
+#pid1,#pid2,.highlighter,h2{
+    color: brown;
+}
+
