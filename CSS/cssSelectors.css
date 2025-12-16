@@ -41,7 +41,51 @@ h2{
     font-family: cursive;
 } */
 
+
+/* Nested Selectors
+Nested selectors Applying same style to the mutiple tags ata a time
 #pid1,.paragraph,h2{
     color: brown;
+} */
+
+
+/* 
+    Specificity Order(highest Priority)
+    >>ID >>Class >> Element
+ */
+
+
+
+/* #pid1{
+    color: blue;
+} */
+/* 
+.paragraph{
+    color: aqua;
 }
 
+p{
+    color: red;
+} */
+
+
+/* Universal selectors */
+
+/* *{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+/* Descendant  selectors */
+
+/* #Descendant p{
+    color: brown;
+} */
+
+
+/*Direct Child Selector  */
+
+#Directsel > p{
+    color: brown;
+}
