@@ -41,7 +41,7 @@ h2{
     font-family: cursive;
 } */
 
-#pid1,#pid2,.highlighter,h2{
+#pid1,.paragraph,h2{
     color: brown;
 }
 
