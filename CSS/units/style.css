@@ -1,0 +1,23 @@
+main{
+    border:6px solid red ;
+    /* width:50%;
+    /* %,vw(view width),vh(view height),px(pixles),em,rem */
+    width:50%;
+    /* width:100vw; */
+}
+section{
+    border: 2px dotted green;
+    width: 100vw;
+    /* height:100vh; */
+} 
+
+h1{
+   font-size:30px; 
+}
+
+/* em takes value of parent next>>its root like that 
+Ex if i mention h2 font-size as 2em and body font size as 2em and by default root html as size of 1em now h2 calculates size with 4em*2em*1em =8em size in order as h2>body>html */
+/* rem takes only root element i.e is HTML i.e 4em *1em  i.e h2>root i.e html*/
+
+
+
