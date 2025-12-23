@@ -1,6 +1,11 @@
 .container{
-    height: 400px;
-    width: 400px;/
+    /* height: 400px;
+    width: 400px;
     /* overflow:disabled; */
-    overflow: hidden;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto;
+    text-align: justify; */
+    
 }
