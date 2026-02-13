@@ -28,11 +28,11 @@
 
 // console.log(addsquares(4,5));
 // Arrow functions
-const greet =()=>{
-    console.log("good morning");
+// const greet =()=>{
+//     console.log("good morning");
     
-}
-greet()
+// }
+// greet()
 
 // const addition=(a,b)=>{
 //     return a+b;
@@ -84,11 +84,11 @@ greet()
 
 // console.log("modular division of a,b is : ",calculate(2,6,modular))
 
-const arr=[2,5,6,8,9,0,-3,-5,-2];
-// method 1
-const result=(num)=>num<0;
-console.log(arr.find(result))
-console.log(arr.findIndex(result))
+// const arr=[2,5,6,8,9,0,-3,-5,-2];
+// // method 1
+// const result=(num)=>num<0;
+// console.log(arr.find(result))
+// console.log(arr.findIndex(result))
 
 // method 2
 // const result=(num)=>{
@@ -103,7 +103,38 @@ console.log(arr.findIndex(result))
 // }
 // console.log(arr.find(result))
 
-arr.forEach((num,index)=>{
-    console.log("value is : ",num,"index is : ",index);
+// arr.forEach((num,index)=>{
+//     console.log("value is : ",num,"index is : ",index);
     
-})
+// })
+// console.log(greet());
+// function greet(){
+//     return "good morning"
+// }
+// console.log(greet());
+// let greet1=function (){
+//     return "good Afternoon"
+// }
+// console.log(greet1());
+
+
+// function calsquares(x,y){
+//     const a=square(x);
+//     const b=square(y);
+//     function square(a){
+//         return a*a
+//     }
+//     return a+b;
+// }
+// console.log(calsquares(2,2))
+
+// const greet=(val)=>{
+//     return "hello world"+val
+// }
+// console.log(greet(6));
+
+function greet(a,b){
+        console.log(a*b);
+}
+greet(100,99);
+
